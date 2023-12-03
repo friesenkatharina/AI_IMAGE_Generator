@@ -91,6 +91,7 @@ function downloadImage(imgUrl, imageNumber) {
 const h1Style = {
   fontSize: "28px",
   fontWeight: "600",
+  textShadow: "4px 4px 5px black",
   marginBottom: "15px",
   textAlign: "center",
 };
@@ -102,7 +103,7 @@ document.querySelectorAll("h1").forEach((h1) => {
 // paragraph
 
 const pStyle = {
-  fontSize: "14px",
+  fontSize: "16px",
   color: "#ccc",
   lineHeight: "1.4rem",
   textAlign: "justify",
@@ -118,6 +119,7 @@ const containerStyle = {
   width: "40rem",
   color: "#fff",
   background: "rgba(0, 0, 0, 0.44)",
+
   padding: "20px 30px",
   borderRadius: "16px",
   boxShadow: "0 4px 30px rgba(0, 0, 0, 0.1)",
@@ -137,7 +139,10 @@ Object.assign(container.style, containerStyle);
 
 const containerBeforeStyle = {
   position: "absolute",
+  border: "5px solid, white",
   backgroundColor: "#ed2ff0",
+  boxShadow:
+    "30px -30px 30px rgba(0, 0, 0, 0.2), 70px -45px 45px rgba(0, 0, 0, 0.6)",
   width: "120px",
   height: "120px",
   filter: "blur(140px)",
