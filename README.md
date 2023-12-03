@@ -12,3 +12,4 @@
         Each style object includes various CSS properties converted into camelCase notation to be compatible with JavaScript syntax.
 
 Overall, this code integrates both the functional aspects of handling API requests and dynamic content generation, along with direct DOM manipulation for applying styles, offering a complete setup for a dynamic and styled web interface.
+git remote set-url origin https://github.com/friesenkatharina/AI_IMAGE_Generator.git
